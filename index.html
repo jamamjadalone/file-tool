@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>File Extension Changer | Free Online Tool</title>
+    <meta name="description" content="Free browser-based tool to change file extensions to JPG, PNG, PDF, ZIP, TXT. No installation required. Works locally on your computer.">
+    <meta name="keywords" content="file extension changer, convert files, jpg, png, online tool, free tool">
+    <meta name="author" content="Your Name">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="File Extension Changer | Free Online Tool">
+    <meta property="og:description" content="Free browser-based tool to change file extensions to JPG, PNG, PDF, ZIP, TXT.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourusername.github.io">
+    <meta property="og:image" content="https://yourusername.github.io/og-image.png">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="File Extension Changer | Free Online Tool">
+    <meta name="twitter:description" content="Free browser-based tool to change file extensions">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "File Extension Changer",
+      "url": "https://yourusername.github.io",
+      "description": "Free online tool to change file extensions",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0"
+      }
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            padding: 40px;
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+        
+        .subtitle {
+            color: #666;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+        
+        .seo-content {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-left: 4px solid #4CAF50;
+        }
+        
+        .seo-content h2 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+        
+        .tool-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 600;
+        }
+        
+        select, button, input[type="text"] {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+        
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            margin-top: 5px;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        .btn-group {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        #fileList {
+            margin-top: 20px;
+            max-height: 300px;
+            overflow-y: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 15px;
+            background: white;
+        }
+        
+        .file-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .btn-group {
+                flex-direction: column;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- SEO Content -->
+        <div class="seo-content">
+            <h1>Free Online File Extension Changer</h1>
+            <p class="subtitle">Convert multiple files to JPG, PNG, PDF, ZIP, TXT or any custom format instantly in your browser</p>
+            
+            <h2>How to Use This Tool</h2>
+            <p>This free tool allows you to quickly change file extensions for multiple files at once. Perfect for organizing photos, documents, or any digital files.</p>
+            
+            <h3>Key Features:</h3>
+            <ul>
+                <li>Convert to JPG, PNG, PDF, ZIP, TXT formats</li>
+                <li>Support for custom file extensions</li>
+                <li>No software installation required</li>
+                <li>Works directly in your web browser</li>
+                <li>Completely free with no limits</li>
+                <li>Safe - files never leave your computer</li>
+            </ul>
+        </div>
+        
+        <!-- Tool Interface -->
+        <div class="tool-card">
+            <h2>File Extension Changer Tool</h2>
+            <p>Select a folder and choose the extension you want to convert to:</p>
+            
+            <div class="form-group">
+                <label for="newExtension">Convert Files To:</label>
+                <select id="newExtension">
+                    <option value=".jpg">.jpg (JPEG Image)</option>
+                    <option value=".png">.png (PNG Image)</option>
+                    <option value=".pdf">.pdf (PDF Document)</option>
+                    <option value=".zip">.zip (Compressed Archive)</option>
+                    <option value=".txt">.txt (Text File)</option>
+                    <option value="custom">Custom Extension</option>
+                </select>
+                
+                <div id="customExtensionContainer" style="display: none; margin-top: 10px;">
+                    <label for="customExtension">Enter Custom Extension (include dot):</label>
+                    <input type="text" id="customExtension" placeholder=".yourextension">
+                </div>
+            </div>
+            
+            <div class="btn-group">
+                <button class="btn" id="chooseFolderBtn">📁 Select Folder</button>
+                <button class="btn" id="changeExtensionsBtn" disabled>🔄 Change Extensions</button>
+            </div>
+            
+            <button class="btn" id="downloadBtn" disabled style="margin-top: 10px;">📥 Download Changed Files</button>
+            
+            <div id="fileList">
+                <p>No files selected yet. Click "Select Folder" to begin.</p>
+            </div>
+        </div>
+        
+        <!-- FAQ Section -->
+        <div class="seo-content">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div style="margin-bottom: 20px;">
+                <h3>Is this tool really free?</h3>
+                <p>Yes, completely free with no hidden charges.</p>
+            </div>
+            
+            <div style="margin-bottom: 20px;">
+                <h3>Are my files safe?</h3>
+                <p>All processing happens locally in your browser. Files never leave your computer.</p>
+            </div>
+            
+            <div>
+                <h3>Which browsers are supported?</h3>
+                <p>Works best on Chrome and Edge. Firefox and Safari have limited support.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript code from previous version (keep all your existing JavaScript)
+        // Make sure to update any absolute URLs to relative paths
+        let folderHandle;
+        let files = [];
+        let changedFiles = [];
+        
+        // DOM Elements
+        const chooseFolderBtn = document.getElementById('chooseFolderBtn');
+        const changeExtensionsBtn = document.getElementById('changeExtensionsBtn');
+        const downloadBtn = document.getElementById('downloadBtn');
+        const newExtensionSelect = document.getElementById('newExtension');
+        const customExtensionContainer = document.getElementById('customExtensionContainer');
+        const customExtensionInput = document.getElementById('customExtension');
+        const fileList = document.getElementById('fileList');
+        
+        // Event Listeners
+        chooseFolderBtn.addEventListener('click', selectFolder);
+        changeExtensionsBtn.addEventListener('click', changeExtensions);
+        downloadBtn.addEventListener('click', downloadChangedFiles);
+        newExtensionSelect.addEventListener('change', handleExtensionChange);
+        
+        // Functions (keep all your existing functions)
+        async function selectFolder() {
+            try {
+                if ('showDirectoryPicker' in window) {
+                    folderHandle = await window.showDirectoryPicker();
+                    await readFolderContents(folderHandle);
+                    changeExtensionsBtn.disabled = false;
+                    updateStatus(`Selected folder: ${folderHandle.name}. Found ${files.length} file(s).`);
+                } else {
+                    updateStatus('File System Access API is not supported in your browser. Try Chrome or Edge.', 'error');
+                }
+            } catch (error) {
+                if (error.name !== 'AbortError') {
+                    updateStatus('Error selecting folder: ' + error.message, 'error');
+                }
+            }
+        }
+        
+        // ... Include all your existing JavaScript functions here ...
+        // (Keep the complete JavaScript from the previous version)
+        
+        // Simple status update function
+        function updateStatus(message, type = 'info') {
+            const statusDiv = document.createElement('div');
+            statusDiv.style.marginTop = '15px';
+            statusDiv.style.padding = '10px';
+            statusDiv.style.borderRadius = '6px';
+            statusDiv.style.fontSize = '14px';
+            
+            if (type === 'error') {
+                statusDiv.style.background = '#f8d7da';
+                statusDiv.style.borderLeft = '4px solid #dc3545';
+                statusDiv.style.color = '#721c24';
+            } else if (type === 'success') {
+                statusDiv.style.background = '#d4edda';
+                statusDiv.style.borderLeft = '4px solid #28a745';
+                statusDiv.style.color = '#155724';
+            } else {
+                statusDiv.style.background = '#e7f3ff';
+                statusDiv.style.borderLeft = '4px solid #2196F3';
+                statusDiv.style.color = '#0b5ed7';
+            }
+            
+            statusDiv.textContent = message;
+            
+            const existingStatus = fileList.querySelector('.status-message');
+            if (existingStatus) {
+                existingStatus.remove();
+            }
+            
+            statusDiv.className = 'status-message';
+            fileList.appendChild(statusDiv);
+        }
+    </script>
+    
+    <!-- External Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+</body>
+</html>
