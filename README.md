@@ -2,7 +2,7 @@
 
 A free, browser-based tool to change file extensions to JPG, PNG, PDF, ZIP, TXT, or custom formats.
 
-🌐 **Live Demo**: https://yourusername.github.io
+🌐 **Live Demo**: https://jamamjadalone.github.io
 
 ## Features
 - Change multiple file extensions at once
@@ -32,7 +32,7 @@ All file processing happens locally in your browser. No files are uploaded to an
 This is a static site hosted on GitHub Pages. To deploy your own version:
 1. Fork this repository
 2. Enable GitHub Pages in repository settings
-3. Your site will be available at `https://yourusername.github.io`
+3. Your site will be available at `https://jamamjadalone.github.io`
 
 ## License
 Free to use for personal and commercial projects.
